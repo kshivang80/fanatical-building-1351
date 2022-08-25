@@ -1,0 +1,66 @@
+
+
+.imgbackground{
+    
+        background-image:
+        url(
+        "https://www.semrush.com/static/images/shape_top.d442ba0d2be9d61ed937084319a21b3a.svg");
+        background-size: "cover";
+      
+        font-size:50px;
+      
+        background-repeat:no-repeat;
+
+
+        margin-left:70%;
+        height:24%;
+        width:30%;
+        border:1px solid #FF622D;
+        background-size: 160%;
+        background-position-y: -245px;
+        background-position-x: -68px;
+        /* width: 300px;
+        height: 300px; */
+        /* border: 2px solid;
+        color: pink; */
+        
+        
+}
+.imgbackground1{
+    
+        background-image:
+        url(
+        "https://www.semrush.com/static/images/shape_left.76ab6e7ff801732bf052030f19491afb.svg");
+        background-size: "cover";
+      
+        font-size:50px;
+      
+        background-repeat:no-repeat;
+
+
+        /* margin-top:4%; */
+        height:40%;
+        width:37%;
+        border:1px solid #FF622D;
+        background-size: 132%;
+        background-position-y: -30px;
+        background-position-x: -168px;
+        /* width: 300px;
+        height: 300px; */
+        /* border: 2px solid;
+        color: pink; */
+        
+        
+}
+.sponser{
+        height:150px;
+        width:55%;
+        border:1px solid #FF622D;
+        margin-left: 23%;
+        margin-top: -38.63%;
+
+}
+.sponser>img{
+        width:100%;
+
+}
