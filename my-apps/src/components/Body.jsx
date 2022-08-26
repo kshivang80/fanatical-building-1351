@@ -81,12 +81,7 @@ export const Body=()=>{
              
             </div>
           </div>
-           {/* <Image src={require("../Image/1.png")} alt=''/>
-              <Image src={require("../Image/2.png")} alt=''/>
-              <Image src={require("../Image/3.png")} alt=''/>
-              <Image src={require("../Image/4.png")} alt=''/>
-              <Image src={require("../Image/5.png")} alt=''/>
-              <Image src={require("../Image/6.png")} alt=''/> */}
+          
            
         </div>
        
