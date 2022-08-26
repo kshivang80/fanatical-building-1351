@@ -1,0 +1,17 @@
+
+
+.box1{
+    height:1000px;
+    /* width:55%; */
+    border:1px solid #0cc60c;
+    /* margin-top: -20%; */
+}
+
+.keyword{
+    border:1px solid #0cc60c;
+    margin-top: 240px;
+    margin-left: 20%;
+    width:60%;
+    text-align: center;
+    
+}
