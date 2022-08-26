@@ -3,6 +3,7 @@
 import { Button, Image, Input, InputGroup, InputLeftAddon, InputRightAddon, Stack, Text } from '@chakra-ui/react'
 
 import "./Body.css"
+import FadeEx, { FadeEx1, FadeEx2, FadeEx3, FadeEx4, FadeEx5, FadeEx6 } from './ButtonImg';
 
 
 
@@ -14,7 +15,7 @@ export const Body=()=>{
 
     return(
        
-        <div style={{background: "black",height:"104rem",backgroundColor:"#421983"}}>
+        <div style={{background: "black",height:"94rem",backgroundColor:"#421983"}}>
            {/* <div style={{background: "#421983",height:"34rem",backgroundColor:"purple"}}></div> */}
            <div className='imgbackground' style={{}}></div>
           <div style={{background: "#421983",margin:"auto",width:"50%",border:"1px solid red",color:"white",textAlign:"center"}}>
@@ -51,8 +52,43 @@ export const Body=()=>{
           <div className='sponser'>
           <img src={require("../Image/sponser.png")} alt="" />
           </div>
+
+          <div className='see' >
+          <Text fontSize='5xl'style={{color:"white",fontFamily:"Arial,Helvetica,sans-serif;",}}>See what's inside </Text>
+          </div>
+          <div className="imgbackground3"></div>
+
+          <div className='box'>
+            <div className='boxImg'>
+              <div >
+                <FadeEx1/>
+              </div>
+              <div>
+              <FadeEx2/>
+              </div>
+              <div>
+              <FadeEx3/>
+              </div>
+              <div>
+              <FadeEx4/>
+              </div>
+              <div>
+              <FadeEx5/>
+              </div>
+              <div>
+              <FadeEx6/>
+              </div>
+              {/* <Image src={require("../Image/1.png")} alt=''/>
+              <Image src={require("../Image/2.png")} alt=''/>
+              <Image src={require("../Image/3.png")} alt=''/>
+              <Image src={require("../Image/4.png")} alt=''/>
+              <Image src={require("../Image/5.png")} alt=''/>
+              <Image src={require("../Image/6.png")} alt=''/> */}
+            </div>
+          </div>
           
            
         </div>
+       
     )
 }
