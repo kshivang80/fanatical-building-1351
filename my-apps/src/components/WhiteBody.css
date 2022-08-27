@@ -1,7 +1,7 @@
 
 
 .box1{
-    height:1000px;
+    height:2000px;
     /* width:55%; */
     border:1px solid #0cc60c;
     /* margin-top: -20%; */
@@ -15,3 +15,38 @@
     text-align: center;
     
 }
+.imgbackground4{
+    
+    background-image:
+    url(
+    "https://www.semrush.com/static/images/stats_illustration.d45802603735a38e20d66876f93eca0c.svg");
+    background-size: "cover";
+  
+    font-size:50px;
+    background-repeat:no-repeat;
+    height:130%;
+    width:100%;
+    border:1px solid #FF622D;
+    margin-top: -11%;
+    background-position-x: 125px;
+    
+}
+ .GridContainer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,130px);
+    gap:15px;
+    width: 60%;
+    margin-top: -53%;
+    margin-left: 65px;
+
+
+}
+.GridContainer>div{
+    border:1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    text-align: center;
+}
+
