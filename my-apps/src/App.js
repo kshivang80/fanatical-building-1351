@@ -6,6 +6,7 @@ import { Body } from './components/Body';
 import WhiteBody from './components/WhiteBody';
 
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
     <Navbar/>
     <Body/>
     <WhiteBody/>
+
   
       <Routes>
         <Route></Route>
