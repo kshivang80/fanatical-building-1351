@@ -1,0 +1,131 @@
+.NewButton{
+    display: flex;
+    height:100px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    width:70%;
+    margin-top: 3%;
+    margin-left: 18%;
+    
+
+}
+.NewButton>Button{
+
+    width:auto;
+    height:55px;
+    border-radius: 23px;
+    font-size: 18px;
+    padding: 6px 69px;
+    margin: 8px 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: 1px solid gray;
+    transition: .2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    color:black;
+    margin-top: 20px;
+   
+  
+}
+.NewButton>Button:hover {
+    background-color:#421983;
+    transition: 0.7s;
+}
+.NewButton>Button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #421983;
+}
+
+.BlueBox{
+    width:80%;
+    height:580px;
+    background-color: #c9edff;
+    margin-left: 13%;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+.purpleBox1{
+    margin-top: 13%;
+    height:50px;
+    background-color: #421983;
+}
+.purpleBox{
+    /* //width:80%; */
+    height:300px;
+  
+    /* border: 1px solid #421983; */
+    background-color: #421983;
+    color:white;
+    text-align: center;
+}
+
+.blackDiv{
+    
+    height:200px;
+    /* border: 1px solid red; */
+    background-color:#111317;
+}
+
+.Footer{
+    margin-left: 10%;
+    display: flex;
+    width: 80%;
+    height:500px;
+    /* border: 1px solid pink; */
+    background-color: #111317;
+   
+}
+.Footer>div{
+   justify-content: center;
+  
+    width: 20%;
+    
+    height:500px;
+    /* border: 1px solid green; */
+}
+.Footer>div>h4{
+    /* text-align: center; */
+    color: white;
+    margin-top: 30px;
+}
+.Footer>div>p{
+    /* text-align: center; */
+    color: #898D9A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 29px;
+    
+}
+.Lastbox{
+    
+    height:100px;
+    /* border: 1px solid red; */
+    background-color:black;
+   
+}
+.Lastlogo{
+  
+        /* width:46px; */
+        /* margin-top: 2%; */
+        font-size: 30px;
+        color:white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+       width:11rem;
+       margin-left: 13%;
+    
+}
+.Lastlogo>img{
+  
+    border-radius: 100%;
+    width:43px;
+    height:35px
+
+}
+
+

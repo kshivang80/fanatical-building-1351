@@ -13,12 +13,12 @@
 
 
         margin-left:70%;
-        height:24%;
+        height:26%;
         width:30%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         background-size: 160%;
-        background-position-y: -245px;
-        background-position-x: -68px;
+        background-position-y: -249px;
+        background-position-x: -55px;
         /* width: 300px;
         height: 300px; */
         /* border: 2px solid;
@@ -41,7 +41,7 @@
         /* margin-top:4%; */
         height:44%;
         width:37%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         background-size: 130%;
         background-position-y: -30px;
         background-position-x: -168px;
@@ -55,7 +55,7 @@
 .sponser{
         height:150px;
         width:55%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         margin-left: 22.25%;
         margin-top: -38.64%;
 
@@ -67,7 +67,7 @@
 .see{
         height:auto;
         width:55%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         margin-left: 26%;
         margin-top: 6.63%;
         text-align: center;
@@ -89,7 +89,7 @@
         margin-left:40%;
         height:900px;
         width:60%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         background-size: 78%;
         margin-top: 19%;
         /* background-position-y: -245px; */
@@ -108,7 +108,7 @@
         height:700px;
         width:78%;
         margin-left: 13%;
-        border:1px solid #FF622D;
+        /* border:1px solid #FF622D; */
         margin-top: -74.63%;
         border-radius: 40px;
         background-color: #fff;

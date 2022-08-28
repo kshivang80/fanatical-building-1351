@@ -7,20 +7,20 @@ import WhiteBody from './components/WhiteBody';
 
 
 
+
 function App() {
   return (
     <>
-    <BrowserRouter>
+    
     <Navbar/>
     <Body/>
     <WhiteBody/>
 
   
-      <Routes>
-        <Route></Route>
-      </Routes>
+      
+      {/* <AllRoutes/> */}
     
-    </BrowserRouter>
+    
     
     
     

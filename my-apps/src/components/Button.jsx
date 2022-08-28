@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 //import React from "react";
 import "./Button.css";
 
-function Button() {
+function Button1() {
   return (
-    <Link to="signup">
-      <button className="btn">Sign Up</button>
+    <Link to="/login">
+      <button className="btn">Login</button>
     </Link>
   );
 }
 
-export default Button;
+export default Button1;
