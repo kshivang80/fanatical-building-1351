@@ -1,58 +1,58 @@
 .navbar{
-    height:80px;
-    background-color:#111317;
-    display:flex;
-   align-items: center;
-   
+  height:80px;
+  background-color:#111317;
+  display:flex;
+ align-items: center;
+ 
 }
 .navbar-logo{
-    /* width:46px; */
-    font-size: 30px;
-    color:white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-   justify-content: space-between;
-   width:11rem;
-   margin-left: 15%;
+  /* width:46px; */
+  font-size: 30px;
+  color:white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ width:11rem;
+ margin-left: 15%;
 }
 .navbar-logo img{
-   
-    border-radius: 100%;
-    width:43px;
-    height:35px
+ 
+  border-radius: 100%;
+  width:43px;
+  height:35px
 }
 
 .nav-items {
-    display: flex;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    
-    justify-content: space-around;
-    margin-right: 2rem;
-    /* margin-left: rem; */
-  }
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
   
-  .nav-item {
-    display: flex;
-    align-items: center;
-    height: 20vh;
-  }
-  
-  .nav-item a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.1rem;
-    margin-right:  -2rem; 
-     /* padding: 6px 6px; */
-    border-radius: 5px;
-  }
-  
-  .nav-item a:hover {
-    background: rgb(0, 212, 212);
-  }
-  .btn{
-    margin-right: 250px;
-    width:30%;
-  }
+  justify-content: space-around;
+  margin-right: 2rem;
+  /* margin-left: rem; */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right:  -2rem; 
+   /* padding: 6px 6px; */
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgb(0, 212, 212);
+}
+.btn{
+  margin-right: 250px;
+  width:30%;
+}
