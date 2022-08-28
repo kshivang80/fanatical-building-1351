@@ -5,22 +5,27 @@ import Navbar from './components/Navbar';
 import { Body } from './components/Body';
 import WhiteBody from './components/WhiteBody';
 import WhiteBody2 from './components/WhiteBody2';
+import Login from './Pages/Login';
+import About from './Pages/About';
+import AllRoutes from './Pages/AllRoutes';
+
+
+
 
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+    
     <Navbar/>
     <Body/>
     <WhiteBody/>
     <WhiteBody2/>
   
-      <Routes>
-        <Route></Route>
-      </Routes>
+      
+      {/* <AllRoutes/> */}
     
-    </BrowserRouter>
+    
     
     
     

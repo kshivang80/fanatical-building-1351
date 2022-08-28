@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
 import "./Navbar.css"
 import { navItems } from "./NavbarItems";
-import Button from "./Button";
+import Button1 from "./Button";
 import {Dropdown,Dropdown1, Dropdown2, Dropdown3} from "./Dropdown";
 import { useState } from "react";
 
@@ -89,16 +89,23 @@ function Navbar(){
             );
           })}
         </ul>
-        <Button/>
+        <Button1/>
+       
         {/* <Button element="hhh"/> */}
 
         </nav>
         {/* <Dropdown/> */}
 
        
-
+        {/* <div>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        </div> */}
 
         </>
+
+       
     )
 }
 

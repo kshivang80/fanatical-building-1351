@@ -18,8 +18,8 @@ export const Body=()=>{
         <div style={{background: "black",height:"94rem",backgroundColor:"#421983"}}>
            {/* <div style={{background: "#421983",height:"34rem",backgroundColor:"purple"}}></div> */}
            <div className='imgbackground' style={{}}></div>
-          <div style={{background: "#421983",margin:"auto",width:"50%",border:"1px solid red",color:"white",textAlign:"center"}}>
-          <Text fontSize='6xl'style={{color:"white",fontFamily:"Arial,Helvetica,sans-serif;",marginTop:"-15rem"}}>Get measurable results </Text>
+          <div style={{background: "#421983",margin:"auto",width:"50%",color:"white",textAlign:"center",border:"1px soild black"}}>
+          <Text fontSize='6xl'style={{color:"white",fontFamily:"Arial,Helvetica,sans-serif;",marginTop:"-15rem",border:"1px soild black"}}>Get measurable results </Text>
           <Text fontSize='6xl'style={{color:"white",fontFamily:"Arial,Helvetica,sans-serif;",}}> from online marketing</Text>
             <br/>
            <Text fontSize='2xl' style={{fontFamily:"Inter,sans-serif;"}}>Do SEO, content marketing, competitor research</Text>
