@@ -4,7 +4,7 @@ import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Navbar from './components/Navbar';
 import { Body } from './components/Body';
 import WhiteBody from './components/WhiteBody';
-import WhiteBody2 from './components/WhiteBody2';
+
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Navbar/>
     <Body/>
     <WhiteBody/>
-    <WhiteBody2/>
+
   
       <Routes>
         <Route></Route>

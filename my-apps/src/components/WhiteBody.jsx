@@ -1,3 +1,4 @@
+
 import { Button, Image } from '@chakra-ui/react'
 import { Text } from "@chakra-ui/react"
 import "./WhiteBody.css"
@@ -14,6 +15,7 @@ function WhiteBody(){
                 <Text fontSize='5xl'style={{color:"#171a22;",fontFamily:"Arial,Helvetica,sans-serif;",}}>SimilarWeb in one.”</Text>
 
             </div>
+
             <div style={{marginLeft:"40%",marginTop:"2%",border:"1px solid red",width:"27%",justifyItems:"center",textAlign:"center",height:'380px'}}>
             <Image
                     marginLeft={"32%"}
@@ -88,6 +90,7 @@ function WhiteBody(){
                     <div style={{ border: "1px solid red;"}}>.....</div>
                     <div style={{ border: "1px solid red;"}}>,,,,,,</div>
              </div> */}
+
 
 
 

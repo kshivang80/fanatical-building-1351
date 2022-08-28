@@ -78,7 +78,7 @@ export const Body=()=>{
               <div>
               <FadeEx6/>
               </div>
-             
+
             </div>
           </div>
           
